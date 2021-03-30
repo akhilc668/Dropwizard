@@ -1,0 +1,7 @@
+ex\dropwizardJDBI\api\Employee.class
+ex\dropwizardJDBI\core\EmployeeService.class
+ex\dropwizardJDBI\resources\EmployeeResource.class
+ex\dropwizardJDBI\exConfiguration.class
+ex\dropwizardJDBI\exApplication.class
+ex\dropwizardJDBI\db\EmployeeDao.class
+ex\dropwizardJDBI\db\EmployeeMapper.class
