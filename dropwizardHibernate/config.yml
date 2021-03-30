@@ -1,0 +1,16 @@
+logging:
+  level: INFO
+  loggers:
+    com: DEBUG
+
+
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/motivity?autoReconnect=true&useSSL=false
+  user: root
+  password: root
+  properties:
+    hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate.ddl_auto: update
+    hibernate.show_sql: true
+    hibernate.format_sql: true

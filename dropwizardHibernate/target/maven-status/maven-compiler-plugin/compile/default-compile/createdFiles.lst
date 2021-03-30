@@ -1,0 +1,6 @@
+com\dropwizardHibernate\DHibApplication.class
+com\dropwizardHibernate\DHibConfiguration.class
+com\dropwizardHibernate\db\EmployeeDao.class
+com\dropwizardHibernate\DHibApplication$1.class
+com\dropwizardHibernate\core\Employee.class
+com\dropwizardHibernate\resources\EmployeeResource.class

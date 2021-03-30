@@ -40,8 +40,7 @@ Class-Path: dropwizard-core-2.0.20.jar dropwizard-util-2.0.20.jar guava-
  .1.7.Final.jar jboss-logging-3.3.2.Final.jar classmate-1.5.1.jar dropwi
  zard-jdbi-1.1.2.jar dropwizard-db-2.0.20.jar tomcat-jdbc-9.0.43.jar tom
  cat-juli-9.0.43.jar jdbi-2.78.jar metrics-jdbi-4.1.18.jar mysql-connect
- or-java-8.0.21.jar protobuf-java-3.11.4.jar swagger-annotations-1.5.3-M
- 1.jar
+ or-java-8.0.21.jar protobuf-java-3.11.4.jar
 Main-Class: ex.dropwizardJDBI.exApplication
 Created-By: Maven Integration for Eclipse
 
