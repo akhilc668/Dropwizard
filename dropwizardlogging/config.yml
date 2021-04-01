@@ -1,0 +1,18 @@
+logging:
+  level: INFO
+  loggers:
+    com: DEBUG
+    aditive: true
+  
+  appenders:
+    - type: console
+      timeZone: IST
+      logFormat: "%-5p [%d{ISO8601,IST}] %c: %m%n%rEx"
+    
+    - type: file
+      currentLogFilename: F:\Dropwizard\dropwizardlogging\dwl.log
+      timeZone: IST
+      logFormat: "%-5p [%d{ISO8601,IST}] %c: %m%n%rEx"
+      archive: true
+      archivedLogFilenamePattern: F:\Dropwizard\dropwizardlogging\dwl-%d.log
+      archivedFileCount: 5
