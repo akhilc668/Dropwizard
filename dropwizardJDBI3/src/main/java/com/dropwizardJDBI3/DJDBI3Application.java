@@ -3,6 +3,7 @@ package com.dropwizardJDBI3;
 import org.jdbi.v3.core.Jdbi;
 
 import com.dropwizardJDBI3.core.EmployeeService;
+import com.dropwizardJDBI3.health.DatabaseHealthCheck;
 import com.dropwizardJDBI3.resources.EmployeeResource;
 
 import io.dropwizard.Application;
@@ -32,6 +33,7 @@ public class DJDBI3Application extends Application<DJDBI3Configuration> {
 		JdbiFactory jf = new JdbiFactory();
 		Jdbi j = jf.build(environment, configuration.getDataSourceFactory(), "sql");
 		EmployeeService es=j.onDemand(EmployeeService.class);
+		environment.healthChecks().register("database", new DatabaseHealthCheck(configuration.getDataSourceFactory()));
 		environment.jersey().register(new EmployeeResource(es));
 	}
 
