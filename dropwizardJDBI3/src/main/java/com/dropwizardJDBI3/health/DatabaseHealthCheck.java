@@ -15,7 +15,7 @@ public class DatabaseHealthCheck extends HealthCheck {
     @Override
     protected Result check() throws Exception {
         if (database.getCheckConnectionOnConnect()) {
-            return Result.healthy("connected to"+database.getUrl());
+            return Result.healthy("connected to "+database.getUrl());
         } else {
             return Result.unhealthy("Cannot connect to " + database.getUrl());
         }

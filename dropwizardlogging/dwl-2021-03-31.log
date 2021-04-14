@@ -1,0 +1,76 @@
+INFO  [2021-03-31 15:35:37,547] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2021-03-31 15:35:37,553] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+DEBUG [2021-03-31 15:35:37,553] com.dropwizardlogging.DLogApplication: debugging
+INFO  [2021-03-31 15:35:37,553] com.dropwizardlogging.DLogApplication: information
+ERROR [2021-03-31 15:35:37,553] com.dropwizardlogging.DLogApplication: no error
+INFO  [2021-03-31 15:35:37,557] io.dropwizard.server.ServerFactory: Starting DLog
+================================================================================
+
+                              DLog
+
+================================================================================
+
+INFO  [2021-03-31 15:35:37,704] org.eclipse.jetty.setuid.SetUIDListener: Opened application@7275c74b{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2021-03-31 15:35:37,706] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@19058533{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2021-03-31 15:35:37,710] org.eclipse.jetty.server.Server: jetty-9.4.37.v20210219; built: 2021-02-19T15:16:47.689Z; git: 27afab2bd37780d179836e313e0fe11bc4fa0ce9; jvm 14.0.2+12-46
+INFO  [2021-03-31 15:35:38,366] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    NONE
+
+INFO  [2021-03-31 15:35:38,369] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@6ebc9573{/,null,AVAILABLE}
+INFO  [2021-03-31 15:35:38,376] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2021-03-31 15:35:38,377] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2021-03-31 15:35:38,378] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@10c47c79{/,null,AVAILABLE}
+INFO  [2021-03-31 15:35:38,479] org.eclipse.jetty.server.AbstractConnector: Started application@7275c74b{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2021-03-31 15:35:38,492] org.eclipse.jetty.server.AbstractConnector: Started admin@19058533{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2021-03-31 15:35:38,492] org.eclipse.jetty.server.Server: Started @4063ms
+INFO  [2021-03-31 15:36:22,769] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2021-03-31 15:36:22,775] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+DEBUG [2021-03-31 15:36:22,775] com.dropwizardlogging.DLogApplication: debugging
+INFO  [2021-03-31 15:36:22,776] com.dropwizardlogging.DLogApplication: information
+ERROR [2021-03-31 15:36:22,776] com.dropwizardlogging.DLogApplication: no error
+INFO  [2021-03-31 15:36:22,778] io.dropwizard.server.ServerFactory: Starting DLog
+================================================================================
+
+                              DLog
+
+================================================================================
+
+INFO  [2021-03-31 15:36:22,925] org.eclipse.jetty.setuid.SetUIDListener: Opened application@7275c74b{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2021-03-31 15:36:22,925] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@19058533{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2021-03-31 15:36:22,931] org.eclipse.jetty.server.Server: jetty-9.4.37.v20210219; built: 2021-02-19T15:16:47.689Z; git: 27afab2bd37780d179836e313e0fe11bc4fa0ce9; jvm 14.0.2+12-46
+INFO  [2021-03-31 15:36:23,583] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    NONE
+
+INFO  [2021-03-31 15:36:23,585] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@6ebc9573{/,null,AVAILABLE}
+INFO  [2021-03-31 15:36:23,591] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2021-03-31 15:36:23,592] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2021-03-31 15:36:23,592] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@10c47c79{/,null,AVAILABLE}
+INFO  [2021-03-31 15:36:23,667] org.eclipse.jetty.server.AbstractConnector: Started application@7275c74b{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2021-03-31 15:36:23,674] org.eclipse.jetty.server.AbstractConnector: Started admin@19058533{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2021-03-31 15:36:23,675] org.eclipse.jetty.server.Server: Started @3210ms
